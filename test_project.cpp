@@ -103,8 +103,7 @@ int main() {
                         inputText.setString("");
                     }
                     else if (button.getGlobalBounds().contains(worldPos)) {
-                        sf::String greeting = L"Привет, " + userInput;
-                        userInput = greeting;
+                        sf::String greeting = L"Привет " + userInput;
                         inputText.setString(greeting);
                     }
                 }
